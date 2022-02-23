@@ -1,0 +1,10 @@
+.nav__bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 150px;
+}
