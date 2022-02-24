@@ -1,16 +1,77 @@
 .nav__bar {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .welcome {
-    text-align: center;
-    margin-top: 150px;
+  text-align: center;
+  margin-top: 150px;
 }
 
 .landingPageBody {
-    background-image: url("/images/potentialBackground.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+  background-image: url("/images/potentialBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  background-color: gray;
+  align-items: center;
+}
+
+.countryPageHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 2px;
+  width: 20em;
+  background-color: gainsboro;
+}
+
+.countryPageHeader__imgDiv {
+  margin: 2em auto;
+  width: 80%;
+}
+
+.countryImage {
+  margin: auto;
+  width: 100%;
+}
+
+.countryPageHeader h1 {
+  margin: auto;
+}
+
+.countryPageInfo {
+  background-color: lightblue;
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 2em 0;
+}
+
+.countryPageInfo__card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  align-items: center;
+  background-color: brown;
+  padding: 2em .5em;
+}
+
+.countryPageInfo__card h2 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
