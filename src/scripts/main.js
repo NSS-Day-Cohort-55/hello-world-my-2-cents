@@ -8,3 +8,11 @@ document.getElementById("nav-el").innerHTML=
     <li class="nav__country"><a href="../countries/finland.html">Finland</a>
     <li class="nav__country"><a href="../countries/croatia.html">Croatia</a></li>
 </ul>`;
+
+// const footerString = '&copy; 2 Cents, All rights reserved.'
+// const footerEl = document.getElementById("footer-el")
+
+// footerEl.innerHTML = footerString
+import { createFooterText } from "./footer.js"
+
+createFooterText()
