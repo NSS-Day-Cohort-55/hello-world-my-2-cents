@@ -1,0 +1,13 @@
+footer {
+    /* Colors */
+    background-color: black;
+    color: white;
+
+    /* Margins and Padding */
+    padding: 5em 0;
+
+    /* Flexbox Stuff */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
