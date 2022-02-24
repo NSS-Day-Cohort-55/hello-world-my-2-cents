@@ -2,6 +2,20 @@
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+  border-style: outset;
+  border-color: #1a1d22;
+  background-color: #1a1d22;
+}
+
+.nav__bar img {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+
+.nav__country a {
+  display: flex;
+  justify-content: center;
 }
 
 .welcome {
@@ -9,10 +23,9 @@
   margin-top: 150px;
 }
 
-.landingPageBody {
-  background-image: url("/images/potentialBackground.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+body {
+  background-color: #010409;
+  color: white;
 }
 
 .pageContainer {
@@ -63,7 +76,7 @@
   flex-basis: 30%;
   align-items: center;
   background-color: brown;
-  padding: 2em .5em;
+  padding: 2em 0.5em;
 }
 
 .countryPageInfo__card h2 {
