@@ -8,3 +8,7 @@
     text-align: center;
     margin-top: 150px;
 }
+
+.landingPageBody {
+    background-image: url("/src/images/potentialBackground.jpg");
+}
