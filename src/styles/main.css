@@ -1,16 +1,45 @@
 .nav__bar {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .welcome {
-    text-align: center;
-    margin-top: 150px;
+  text-align: center;
+  margin-top: 150px;
 }
 
 .landingPageBody {
-    background-image: url("/images/potentialBackground.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+  background-image: url("/images/potentialBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+}
+
+.countryPageHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 2px;
+}
+
+.countryPageHeader__imgDiv {
+  margin: auto;
+  width: 300px;
+}
+
+.countryImage {
+  margin: auto;
+  width: 100%;
+}
+
+.countryPageHeader h1 {
+  margin: auto;
 }
