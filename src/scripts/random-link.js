@@ -8,21 +8,21 @@ export const getLinkString = () => {
     const random = getRandomOnetoFour()
     switch (random) {
         case 1:
-            linkString = '<a href="./countries/england.html">Take me away!</a>'
+            linkString = "./countries/england.html"
             break;
         case 2:
-            linkString = '<a href="./countries/japan.html">Take me away!</a>'
+            linkString = "./countries/japan.html"
             break;
         case 3:
-            linkString = '<a href="./countries/finland.html">Take me away!</a>'
+            linkString = "./countries/finland.html"
             break;
         case 4:
-            linkString = '<a href="./countries/croatia.html">Take me away!</a>'
+            linkString = "./countries/croatia.html"
             break;
     }
     return linkString
 }
 
 export const injectHTML = (element) => {
-    element.innerHTML = getLinkString()
+    element.href = getLinkString()
 }
