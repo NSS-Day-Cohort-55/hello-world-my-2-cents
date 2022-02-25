@@ -1,7 +1,7 @@
 @import "footer.css";
 
-/* @import navbar.css */
-/* @import page-container.css */
+@import "navbar.css";
+@import "page-container.css";
 
 body {
   margin: 0;
@@ -11,115 +11,9 @@ body {
   color: white;
 }
 
-.nav__bar {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  border-style: outset;
-  border-color: #1a1d22;
-  background-color: #1a1d22;
-}
-
-.nav__bar img {
-  display: flex;
-  justify-content: center;
-  width: 20%;
-}
-
-.nav__country a {
-  display: flex;
-  justify-content: center;
-}
-
 .welcome {
   text-align: center;
   margin-top: 150px;
-}
-
-.pageContainer {
-  /* Colors */
-  background-color: gray;
-
-  /* Margins and padding */
-  margin: 0;
-  padding: 2em 0;
-  width: 100%;
-
-  /* Flexbox Stuff */
-  display: flex;
-  flex-direction: column;
-  /* margin: auto; */
-  width: 100%;
-  background-color: #010409;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-
-.countryPageHeader {
-  /* Colors */
-  border: 3px solid black;
-  background-color: gainsboro;
-
-  /* Margins and padding */
-  border-radius: 2px;
-  width: 20em;
-
-  /* Flexbox Stuff */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.countryPageHeader__imgDiv {
-  margin: 2em auto;
-  width: 80%;
-}
-
-.countryImage {
-  margin: auto;
-  width: 100%;
-}
-
-.countryPageHeader h1 {
-  margin: auto;
-}
-
-.countryPageInfo {
-  /* Colors */
-
-  /* Margins and padding */
-  margin: 2em 0;
-  width: 100%;
-
-  /* Flexbox Stuff */
-  display: flex;
-  align-items: baseline;
-  justify-content: space-evenly;
-}
-
-.countryPageInfo__card {
-  /* Colors */
-  background-color: brown;
-
-  /* Margins and padding */
-  padding: 2em .5em;
-  margin: 0 2em;
-
-  /* Flexbox Stuff */
-  display: flex;
-  flex-direction: column;
-  flex-basis: 28%;
-  align-items: center;
-  background-color: rgb(182, 165, 165);
-  color: white;
-  padding: 2em .5em;
-  border-radius: 15px
-}
-
-.countryPageInfo__card h2 {
-  margin: 0 0 .5em 0;
-  padding: 0;
 }
 
 ul {

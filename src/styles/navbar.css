@@ -1,0 +1,19 @@
+.nav__bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-style: outset;
+    border-color: #1a1d22;
+    background-color: #1a1d22;
+  }
+  
+  .nav__bar img {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+  }
+  
+  .nav__country a {
+    display: flex;
+    justify-content: center;
+  }
