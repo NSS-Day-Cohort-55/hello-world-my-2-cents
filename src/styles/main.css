@@ -1,7 +1,7 @@
 @import "footer.css";
-
 @import "navbar.css";
 @import "page-container.css";
+@import "button.css";
 
 body {
   margin: 0;
@@ -10,14 +10,14 @@ body {
   background-color: #010409;
   color: white;
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 .welcome {
   text-align: center;
   margin-top: 150px;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}

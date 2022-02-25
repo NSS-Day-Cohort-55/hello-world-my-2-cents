@@ -1,0 +1,20 @@
+.button--random {
+    /* Colors */
+    color: white;
+    border: 2px solid white;
+    background-color: #001C57;
+    /* Margins and padding */
+    padding: 2em 0.5em;
+    margin: 0 2em;
+    /* button styling */
+    border-radius: 15px;
+}
+
+.button--random a:visited, a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.button--random a:hover {
+    text-decoration: underline;
+}
