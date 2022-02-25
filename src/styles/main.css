@@ -1,8 +1,9 @@
 @import "footer.css";
-
 @import "navbar.css";
 @import "page-container.css";
+@import "button.css";
 
+/* removing default styling of body, ul and a tags */
 body {
   margin: 0;
   padding: 0;
@@ -11,13 +12,31 @@ body {
   color: white;
 }
 
-.welcome {
-  text-align: center;
-  margin-top: 150px;
-}
-
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+}
+
+/* landing page classes */
+.welcome {
+  text-align: center;
+  /* margin-top: 150px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+}
+
+.welcome__btn {
+  /* padding: 100px 2px 0px 2px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
