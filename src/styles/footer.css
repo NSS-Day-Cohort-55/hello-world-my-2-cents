@@ -1,13 +1,14 @@
 footer {
-    /* Colors */
-    background-color: black;
-    color: white;
+  /* Colors */
+  border: outset #23272e;
+  background-color: #23272e;
+  color: white;
 
-    /* Margins and Padding */
-    padding: 5em 0;
+  /* Margins and Padding */
+  padding: 5em 0;
 
-    /* Flexbox Stuff */
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  /* Flexbox Stuff */
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }

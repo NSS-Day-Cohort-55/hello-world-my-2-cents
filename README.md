@@ -30,7 +30,22 @@ Your team is going to build a travel brochure site. Each of you will pick a coun
 ## User Experience
 
 1. Your team must decide on a consistent experience across all pages. Fonts, color scheme, layout, and structure.
-![Hello World Layout](./hello-world-wireframe.png)
+   ![Hello World Layout](./hello-world-wireframe.png)
 
 ## Stretch Goal
+
 1. Using [Sharethrough](https://headlines.sharethrough.com/), analyze your headline with the country name. Make adjustments to the copy to make it more engaging.
+
+Sources for outside asssets :
+
+Our beautiful icons:
+
+Logo: https://www.flaticon.com/premium-icon/around-the-world_1652894?term=world&page=1&position=53&page=1&position=53&related_id=1652894&origin=search
+
+Croatia: https://www.flaticon.com/premium-icon/croatia_6211383?term=croatia&page=1&position=1&page=1&position=1&related_id=6211383&origin=style
+
+England: https://www.flaticon.com/premium-icon/england_792689?term=england&page=1&position=26&page=1&position=26&related_id=792689&origin=search
+
+Japan: https://www.flaticon.com/free-icon/japan_939616?term=japan&page=1&position=11&page=1&position=11&related_id=939616&origin=search
+
+Finland: https://www.flaticon.com/free-icon/finland_5327256?term=finland&page=1&position=60&page=1&position=60&related_id=5327256&origin=search
