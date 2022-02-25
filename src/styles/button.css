@@ -4,20 +4,21 @@
     border: 2px solid white;
     background-color: #001C57;
     /* Margins and padding */
-    padding: 2em 0.5em;
-    margin: 0 2em;
+    /* padding: 4em 0.5em;
+    margin: 0 2em; */
     /* button styling */
     border-radius: 15px;
     height: 150px;
     width: 200px;
-    font-size: larger;
+    font-size: larger;    
 }
 
-.button--random a:visited, a:link {
+.button--random:visited, .button--random:link {
     color: white;
     text-decoration: none;
 }
 
-.button--random a:hover {
+.button--random:hover {
     text-decoration: underline;
+    background-color: #002c8b;
 }
