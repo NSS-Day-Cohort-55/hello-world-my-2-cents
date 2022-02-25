@@ -25,13 +25,35 @@ a {
 
 /* landing page classes */
 .welcome {
+  /* Colors */
+
+  /* Margins and padding */
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+
+  /* Flexbox stuff */
   text-align: center;
   /* margin-top: 150px; */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 600px;
+
+  /* Animations */
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 150%;
+  }
+  to {
+    margin-left: 0%;
+  }
+  /* width: 100%;
+  height: 600px; */
 }
 
 .welcome__btn {
