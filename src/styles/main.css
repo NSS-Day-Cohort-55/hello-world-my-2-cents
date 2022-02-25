@@ -1,117 +1,19 @@
 @import "footer.css";
 
-/* @import navbar.css */
-/* @import page-container.css */
+@import "navbar.css";
+@import "page-container.css";
 
 body {
   margin: 0;
   padding: 0;
-}
-
-.nav__bar {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  border-style: outset;
-  border-color: #1a1d22;
-  background-color: #1a1d22;
-}
-
-.nav__bar img {
-  display: flex;
-  justify-content: center;
-  width: 20%;
-}
-
-.nav__country a {
-  display: flex;
-  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #010409;
+  color: white;
 }
 
 .welcome {
   text-align: center;
   margin-top: 150px;
-}
-
-body {
-  background-color: #010409;
-  color: white;
-}
-
-.pageContainer {
-  /* Colors */
-  background-color: gray;
-
-  /* Margins and padding */
-  margin: 0;
-  padding: 2em 0;
-  width: 100%;
-
-  /* Flexbox Stuff */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.countryPageHeader {
-  /* Colors */
-  border: 3px solid black;
-  background-color: gainsboro;
-
-  /* Margins and padding */
-  border-radius: 2px;
-  width: 20em;
-
-  /* Flexbox Stuff */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.countryPageHeader__imgDiv {
-  margin: 2em auto;
-  width: 80%;
-}
-
-.countryImage {
-  margin: auto;
-  width: 100%;
-}
-
-.countryPageHeader h1 {
-  margin: auto;
-}
-
-.countryPageInfo {
-  /* Colors */
-
-  /* Margins and padding */
-  margin: 2em 0;
-  width: 80%;
-
-  /* Flexbox Stuff */
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-evenly;
-}
-
-.countryPageInfo__card {
-  /* Colors */
-  background-color: brown;
-
-  /* Margins and padding */
-  padding: 2em .5em;
-  margin: 0 2em;
-
-  /* Flexbox Stuff */
-  display: flex;
-  flex-direction: column;
-  flex-basis: 30%;
-  align-items: center;
-}
-
-.countryPageInfo__card h2 {
-  margin: 0;
 }
 
 ul {
