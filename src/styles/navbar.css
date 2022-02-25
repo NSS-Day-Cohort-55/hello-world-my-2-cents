@@ -2,9 +2,7 @@
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    border-style: outset;
-    border-color: outset #4e5766;
-    
+    border: outset #4e5766;
     background-color: #4e5766;
 }
   
