@@ -1,18 +1,37 @@
 .nav__bar {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  border: outset #4e5766;
-  background-color: #4e5766;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    border: outset #4e5766;
+    background-color: #4e5766;
 }
-
+  
 .nav__bar img {
-  display: flex;
-  justify-content: center;
-  width: 20%;
+    /* Margins and padding */
+    width: 20%;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+
+    /* Other */
+    transition: scale 1s 1s;
 }
 
+.nav__bar a {
+  transition: background-color 1s 1s;
+}
+
+.nav__bar a:hover img {
+  transform: scale(1.2);
+}
+
+.nav__bar a:hover a{
+  background-color: white;
+}
+
+  
 .nav__country a {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
