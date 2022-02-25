@@ -40,7 +40,7 @@ Sources for outside asssets :
 
 Our beautiful icons:
 
-Logo: https://www.flaticon.com/premium-icon/around-the-world_1652894?term=world&page=1&position=53&page=1&position=53&related_id=1652894&origin=search
+Logo: https://www.flaticon.com/premium-icon/coin_2846775?term=coins&page=1&position=47&page=1&position=47&related_id=2846775&origin=search
 
 Croatia: https://www.flaticon.com/premium-icon/croatia_6211383?term=croatia&page=1&position=1&page=1&position=1&related_id=6211383&origin=style
 
