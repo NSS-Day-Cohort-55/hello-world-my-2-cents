@@ -1,88 +1,84 @@
 .pageContainer {
-    /* Colors */
-    background-color: gray;
-  
-    /* Margins and padding */
-    margin: 0;
-    padding: 2em 0;
-    width: 100%;          
-  
-    /* Flexbox Stuff */
-    display: flex;
-    flex-direction: column;
-    /* margin: auto; */
-    width: 100%;
-    background-color: #010409;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-  }
+  /* Colors */
+
+  /* Margins and padding */
+  margin: 0;
+  padding: 1em;
+  width: 100%;
+
+  /* Flexbox Stuff */
+  display: flex;
+  flex-direction: column;
+  /* margin: auto; */
+  width: 100%;
+  background-color: #010409;
+  align-items: center;
+  margin: 0;
+}
 
 .countryPageHeader {
-    /*border: 3px solid black;   
+  /*border: 3px solid black;   
     background-color: gainsboro; */
-  
-    /* Margins and padding */
-    width: 50em;
-  
-    /* Flexbox Stuff */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .countryPageHeader__imgDiv {
-    margin: 1em auto;
-    width: 100%;
-  }
-  
-  .countryImage {
-    border: 1px solid white;
-    border-radius: 1px;
-    width: 100%;
-    justify-content: center;
-  }
-  
-  .countryPageHeader h1 {
-    margin: 0;
-    text-align: center;
-    align-self: center;
-    justify-content: center;
-    margin-top: none;
-  }
-  .countryPageInfo {
-    /* Colors */
-  
-    /* Margins and padding */
-    margin: 2em 0;
-    width: 100%;
-  
-    /* Flexbox Stuff */
-    display: flex;
-    align-items: baseline;
-    justify-content: space-evenly;
-  }
-  
-  .countryPageInfo__card {
-    /* Colors */
-    background-color: brown;
-  
-    /* Margins and padding */
-    padding: 2em .5em;
-    margin: 0 2em;
-  
-    /* Flexbox Stuff */
-    display: flex;
-    flex-direction: column;
-    flex-basis: 28%;
-    align-items: center;
-    background-color: rgb(182, 165, 165);
-    color: white;
-    padding: 2em .5em;
-    border-radius: 15px
-  }
-  
-  .countryPageInfo__card h2 {
-    margin: 0 0 .5em 0;
-    padding: 0;
-  }
+
+  /* Margins and padding */
+  width: 50em;
+
+  /* Flexbox Stuff */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countryPageHeader__imgDiv {
+  margin: 1em auto;
+  width: 100%;
+}
+
+.countryImage {
+  width: 100%;
+  justify-content: center;
+}
+
+.countryPageHeader h1 {
+  margin: 0;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  margin-top: none;
+}
+.countryPageInfo {
+  /* Colors */
+
+  /* Margins and padding */
+  margin: 2em 0;
+  width: 80%;
+
+  /* Flexbox Stuff */
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.countryPageInfo__card {
+  /* Colors */
+  color: white;
+  border: 4px outset white;
+  background-color: #001c57;
+
+  /* Margins and padding */
+  padding: 2em 0.5em;
+  margin: 0 2em;
+
+  /* Flexbox Stuff */
+  display: flex;
+  flex-direction: column;
+  flex-basis: 28%;
+  align-items: center;
+  padding: 2em 0.5em;
+  border-radius: 15px;
+}
+
+.countryPageInfo__card h2 {
+  margin: 0 0 0.5em 0;
+  padding: 0;
+}
